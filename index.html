@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" style="background: #FDFFAB;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c083c6e573.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Interests</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I'am <span>ANKIT</span> </h1>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Snapchat-1779590949.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1><br>
+                    <p>Hi there! My name is Ankit Kumar Sharma and I am currently pursuing a BTech degree in
+                        Instrumentation and Control
+                        Engineering from NSUT 🎓. In addition to my academic studies I have also gained experience in
+                        web development
+                        and eager to work in this field.
+
+                        As a passionate learner and problem-solver💡, and currently trying out my hands on HTML, CSS and
+                        JAVASCRIPT. I
+                        am constantly seeking new opportunities to apply my skills and knowledge in real-world
+                        situations. I am
+                        particularly interesting in the field of web development and technical field.
+
+                        I am proficient in different languages like C,C++ and python and learning my hands on data
+                        structures and
+                        algorithm 🧑‍💻. I like to travel 🚴‍♂️ alot and meet new people and learn from their
+                        experiences.
+
+                        Feel free to reach out to me at sharmaankitkumar33@gmail.com 🤝
+                    </p><br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span></li>
+                            <ul>
+                                <li>C++ <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+                                        height="20" /></li>
+                                <li>Python <img
+                                        src="https://www.ntuclearninghub.com/documents/39367/4216797/Python-Symbol.png/369e410e-a90f-f887-c2dc-61f7ef761476/"
+                                        height="25" /></li>
+                                <li>C language <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png"
+                                        height="20" /></li>
+                            </ul><br>
+                            <li><span>Frameworks</span></li>
+                            <ul>
+                                <li>ReactJS <i class="fa-brands fa-react"></i></li>
+                                <li>Django <img src="https://www.fullstackpython.com/img/logos/django.png"
+                                        height="20" /></li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Dec 2022-May 2023</span><br>Prayas Society</li><br>
+                            <li><span>Sept 2023-Oct 2023</span><br><a href="./codsoft.html">Codsoft</a></li><br>
+                            <li><span>Nov 2022-Present</span><br>Algorithm Society of NSUT</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-26</span><br>Btech from NSUT <a
+                                    href="https://maps.app.goo.gl/Ykg8TUqEH5qa84D68"><i
+                                        class="fa-solid fa-location-dot fa-bounce fa-lg"></i></a></li><br>
+                            <li><span>2021</span><br>XII from APS SHANKAR VIHAR <a
+                                    href="https://maps.app.goo.gl/tc67weg3Yy4r59i87"><i
+                                        class="fa-solid fa-location-dot fa-bounce fa-lg"></i></a></li><br>
+                            <li><span>2019</span><br>X from APS SHANKAR VIHAR <a
+                                    href="https://maps.app.goo.gl/tc67weg3Yy4r59i87"><i
+                                        class="fa-solid fa-location-dot fa-bounce fa-lg"></i></a></li><br>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container"></div>
+        <h1 class="subtitle">Interests</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h2>Web Designing</h2>
+                <p>Learning web development from UDEMY. I used VS code editor to code HTML, CSS and JAVASCRIPT of the website.</p>
+                <a href="https://www.udemy.com/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>Started using FIMORA software to edit short videos. Learning basics form Youtube. Will try to optimise my potential in this field.</p>
+                <a href="https://www.youtube.com/watch?v=SR1Ae6b4iFE">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>Android development</h2>
+                <p>Not started yet but knows basics about it like we use flutter or kotlin to develop APPS and write the code in VS Code.</p>
+                <a href="https://www.geeksforgeeks.org/what-is-flutter/">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/1_qTcIJswJoPyPtD1oA5ZmBw.png">
+                    <div class="layer">
+                        <h3>Simple Calculator</h3>
+                        <p>I used Idle to code the whole program and to run it i used chrome browser.</p>
+                        <a href="https://github.com/Ankit180104/CODSOFT-PROJECTS/blob/main/SIMPLE%20CALCULATOR/code.py"><i
+                                class="fa-solid fa-calculator fa-flip fa-xl"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/unnamed.png">
+                    <div class="layer">
+                        <h3>Password Generator</h3>
+                        <p>I used Idle to code the whole program and to run it i used chrome browser.</p>
+                        <a
+                            href="https://github.com/Ankit180104/CODSOFT-PROJECTS/blob/main/PASSWORD%20GENERATOR/code.py"><i
+                                class="fa-solid fa-lock fa-fade fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/4697260.png">
+                    <div class="layer">
+                        <h3>To Do List</h3>
+                        <p>I used Idle to code the whole program and to run it i used chrome browser.</p>
+                        <a href="https://github.com/Ankit180104/CODSOFT-PROJECTS/blob/main/TO%20DO%20LIST/code.py"><i
+                                class="fa-solid fa-list fa-shake fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://ankit180104.github.io/My-Portfolio/" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> contact @sharmaankitkumar33gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i> 99585xxxxx</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ankit-kumar-sharma-60b37a1b1/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ankit_kumar1804/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/Ankitkumar40021"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/Ankit180104"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Resume-Ankit-Kumar-Sharma.pdf" download="" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Any suggestions"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright © ANKIT. Made with <i class="fa-solid fa-heart"></i> helped by udemy course </p>
+        </div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxHxVnp7361vOLrdw0UXZgIug1B6AN6GKPk3NorlLgePI4Gs_-7V5ECyBaznr1tjsV6_w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
