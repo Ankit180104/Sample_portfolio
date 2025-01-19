@@ -10,37 +10,61 @@ html {
 }
 
 body {
-    background: black;
+    background:black;
     color: #fff;
+    
 }
 
 #header {
     width: 100%;
-    height: 100vh;
-    background-image: url(images/Tanay-212.jpg);
-    background-size: cover;
-    background-position: center;
+    height: 10px;
 }
-
+.left-image{
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+}
+.header-text{
+    position: relative;
+    top: -150px; 
+    left: 0;
+    margin: 0;
+    padding: 20px;
+}
+.container1 {
+    padding: 1px 10%;
+    top: -10px; 
+}
 .container {
-    padding: 10px 10%;
+    padding: 0;
+    padding-top: 20px;
 }
 
+#abc{
+    height: 90px;
+    width: 130px;
+    
+}
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 10px 20px;
 }
-
-.logo {
-    width: 140px;
+#sidemenu {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adds spacing between links */
+    margin-right: 0;
+    padding: 0;
 }
 
 nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+    ;
 }
 
 nav ul li a {
@@ -85,6 +109,7 @@ nav ul li a:hover::after {
 
 #about {
     padding: 80px 0;
+    padding-top: 140px;
     color: #ababab;
 }
 
@@ -174,14 +199,15 @@ nav ul li a:hover::after {
 }
 
 #services {
-    padding: 30px 0;
+    padding: 25px ;
+    margin-top: -80px;
 }
 
 .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .services-list div {
@@ -191,6 +217,7 @@ nav ul li a:hover::after {
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, ktransform 0.5s;
+    margin-top: 20px;
 }
 
 .services-list div i {
@@ -216,11 +243,12 @@ nav ul li a:hover::after {
 
 .services-list div:hover {
     background: #ff004f;
-    transform: translateY(-10px);
+    transform: translateY(-15px);
 }
 
 #portfolio {
-    padding: 50px 0;
+    padding: 25px ;
+    margin-top: -20px;
 }
 
 .work-list {
@@ -268,7 +296,7 @@ nav ul li a:hover::after {
 }
 
 .layer a {
-    margin-top: 20px;
+    margin-top: 5px;
     color: #ff004f;
     text-decoration: none;
     font-size: 18px;
@@ -278,6 +306,20 @@ nav ul li a:hover::after {
     height: 60px;
     border-radius: 50%;
     text-align: center;
+}
+
+.work {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+}
+
+.work img {
+    max-width: 100%; /* Ensures image does not overflow */
+    height: 350px; /* Maintain aspect ratio */
 }
 
 .work:hover img {
@@ -306,6 +348,8 @@ nav ul li a:hover::after {
 
 .contact-left {
     flex-basis: 35%;
+    padding: 20px;
+    margin-top: -10px;
 }
 
 .contact-right {
@@ -314,6 +358,7 @@ nav ul li a:hover::after {
 
 .contact-left p {
     margin-top: 30px;
+
 }
 
 .contact-left p i {
@@ -323,7 +368,8 @@ nav ul li a:hover::after {
 }
 
 .social-icons {
-    margin-top: 30px;
+    margin-top: 20px;
+    
 }
 
 .social-icons a {
@@ -343,10 +389,12 @@ nav ul li a:hover::after {
 .btn.btn2 {
     display: inline-block;
     background: #ff004f;
+    margin-top: 5px;
 }
 
 .contact-right form {
     width: 100%;
+    margin-top: -50px;
 }
 
 form input,
@@ -356,7 +404,7 @@ form textarea {
     outline: none;
     background: #262626;
     padding: 15px;
-    margin: 15px 0;
+    margin: 10px 0;
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
@@ -387,10 +435,6 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width:500px) {
-    #header {
-        background-image: url(images/Snapchat-1779590949.jpg);
-    }
-
     .header-text {
         margin-top: 100%;
         font-size: 16px;
